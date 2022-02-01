@@ -6,10 +6,9 @@ import reportWebVitals from './reportWebVitals';
 
 import 'font-awesome/css/font-awesome.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import Trial from './ByTrial/Trial';
-import FormWork from './Git_and_Github_tutorial/FormWork';
-import FormValidate from './Git_and_Github_tutorial/FormValidate';
+import Ecommerce from './Ecommerce/Ecommerce';
+import Useeffect from './Git_and_Github_tutorial/Useeffect';
+import ValidateForm from './Git_and_Github_tutorial/ValidateForm';
 
 
 
@@ -17,7 +16,7 @@ import FormValidate from './Git_and_Github_tutorial/FormValidate';
 
 ReactDOM.render(
   <React.StrictMode>
-    <FormValidate/>
+    <ValidateForm/>
   </React.StrictMode>,
   document.getElementById('root')
 );
